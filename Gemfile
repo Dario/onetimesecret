@@ -2,7 +2,7 @@ source "https://rubygems.org/"
 
 # DEVMACHINE: bundle install
 # PRODUCTION: bundle install --deployment --without dev
-
+ruby '2.3.4'
 gem 'addressable', '2.2.6'
 gem 'rack', '1.4.5'
 gem 'yajl-ruby', '1.1.0'
